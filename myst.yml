@@ -1,0 +1,23 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+project:
+  id: 8584270b-9199-4222-b9f5-8893b840680f
+  title: Science book
+  subtitle: A website for hosting science books
+  # description:
+  # keywords: []
+  authors: 
+    - name: Thomas Wood
+      orcid: 0009-0001-6099-2115
+      affiliations:
+        - Phytomech Industries
+
+  github: https://github.com/odellus/science_book
+  # To autogenerate a Table of Contents, run "jupyter book init --write-toc"
+  toc:
+    - file: index.md
+site:
+  template: book-theme
+  # options:
+  #   favicon: favicon.ico
+  #   logo: site_logo.png
