@@ -19,6 +19,7 @@ project:
     - file: chapter-01.ipynb
 site:
   template: book-theme
-  # options:
+  options:
+    style: styles.css
+    logo: robot-octopus.png
   #   favicon: favicon.ico
-  #   logo: site_logo.png
