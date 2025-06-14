@@ -16,6 +16,7 @@ project:
   # To autogenerate a Table of Contents, run "jupyter book init --write-toc"
   toc:
     - file: index.md
+    - file: chapter-01.ipynb
 site:
   template: book-theme
   # options:
